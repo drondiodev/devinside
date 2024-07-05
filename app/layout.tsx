@@ -1,13 +1,30 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 
-import './globals.css'
+import { fontSans } from '@/lib/fonts'
+import cn from '@/lib/utils'
 
-const inter = Inter({ subsets: ['latin'] })
+import Footer from '@/components/footer'
+import Header from '@/components/header'
+
+import { APP_DESCRIPTION, APP_NAME, APP_URL } from '@/constants/index'
+import '@/styles/globals.css'
 
 export const metadata: Metadata = {
-  title: 'Nom du projet',
-  description: 'Description du projet',
+  title: {
+    default: `${APP_NAME}`,
+    template: `%s - ${`${APP_NAME}`}`,
+  },
+  description: `${APP_DESCRIPTION}`,
+  // metadataBase: new URL(`${APP_URL}`),
+  authors: [
+    {
+      name: 'drondiodev',
+      url: 'https://github.com/drondiodev',
+    },
+  ],
+  creator: 'drondiodev',
+  icons: { icon: '/favicon.ico?v=1' },
+  // manifest: `${`${APP_URL}`}/site.webmanifest`,
 }
 
 export default function RootLayout({
@@ -16,8 +33,19 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="fr">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr" suppressHydrationWarning>
+      <body
+        className={cn(
+          'min-h-screen bg-background font-sans antialiased scroll-smooth',
+          fontSans.variable
+        )}
+      >
+        <div className="relative flex min-h-screen flex-col">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 import Container from './container'
@@ -10,14 +11,24 @@ export default function Footer() {
         <div className="flex flex-col space-y-8 lg:flex-row lg:space-y-0">
           <div className="flex w-full space-x-2 lg:w-4/12 xl:w-4/12 xl:space-x-6 2xl:space-x-8">
             <div className="flex flex-col space-y-4">
-              <div>
-                <Link aria-label="Home Page" href="/">
-                  DevInside.
-                </Link>
-              </div>
+              <Link href="/">
+                <div className="flex items-center gap-2">
+                  <Image
+                    alt="logo"
+                    loading="lazy"
+                    width="40"
+                    height="30"
+                    decoding="async"
+                    src="/Logo.svg"
+                  />
+                  <span className="text-lg font-semibold">DevInside.</span>
+                </div>
+              </Link>
               <div className="flex flex-col space-y-4">
                 <div>
-                  <p className="text-sm text-muted-foreground">Description</p>
+                  <p className="text-sm text-muted-foreground">
+                    Les meilleurs ressources à portée de clic
+                  </p>
                 </div>
                 <div className="flex text-xs text-muted-foreground">
                   <p>

@@ -1,8 +1,10 @@
 import Link from 'next/link'
 
+import Container from '@/components/container'
+
 export default function NotFound() {
   return (
-    <section>
+    <Container className="flex h-full items-center pt-24 sm:pt-32 lg:pt-40">
       <div className="bg-white py-6 sm:py-0">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <div className="flex flex-col items-center justify-center  md:py-24 lg:py-32 xl:py-64">
@@ -26,6 +28,6 @@ export default function NotFound() {
           </div>
         </div>
       </div>
-    </section>
+    </Container>
   )
 }

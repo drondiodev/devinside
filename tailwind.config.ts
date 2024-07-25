@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Mona Sans'],
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -74,8 +77,7 @@ const config = {
       },
     },
   },
-  // eslint-disable-next-line import/no-extraneous-dependencies, global-require
-  plugins: [require('tailwindcss-animate')],
+  plugins: [],
 } satisfies Config
 
 export default config

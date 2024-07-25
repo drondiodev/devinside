@@ -1,11 +1,5 @@
 import type { Metadata } from 'next'
 
-import { fontSans } from '@/lib/fonts'
-import cn from '@/lib/utils'
-
-import Footer from '@/components/footer'
-import Header from '@/components/header'
-
 import { APP_DESCRIPTION, APP_NAME, APP_URL } from '@/constants/index'
 import '@/styles/globals.css'
 
@@ -33,19 +27,12 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="fr" suppressHydrationWarning>
-      <body
-        className={cn(
-          'min-h-screen bg-background font-sans antialiased scroll-smooth',
-          fontSans.variable
-        )}
-      >
-        <div className="relative flex min-h-screen flex-col">
-          <Header />
-          {children}
-          <Footer />
-        </div>
-      </body>
+    <html
+      lang="fr"
+      className="h-full scroll-smooth text-base antialiased"
+      suppressHydrationWarning
+    >
+      <body className="flex h-full flex-col">{children}</body>
     </html>
   )
 }

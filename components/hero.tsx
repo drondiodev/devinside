@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import Container from '@/components/container'
 import { FadeIn } from '@/components/fadein'
 
@@ -12,9 +14,7 @@ export default function Hero() {
                 Nouveau
               </span>
               <span className="bg-gradient-to-r from-foreground/50 to-foreground bg-clip-text text-transparent">
-                <span>
-                  Votre package.json pour début de carrière prometteur
-                </span>
+                <span>Votre package.json pour début de carrière !</span>
               </span>
             </h3>
           </div>
@@ -37,11 +37,11 @@ export default function Hero() {
               </h3>
             </div>
           </div>
-          <div className="delay-500 duration-1000 animate-in fade-in fill-mode-both">
+          <div>
             <div className="flex space-x-4">
-              <a
-                className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 py-2 h-12 rounded-xl px-4 text-base font-semibold transition-all hover:shadow-2xl dark:shadow-primary/30"
-                href="/auth/sign-up"
+              <Link
+                className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground py-2 h-12 rounded-xl px-4 text-base font-semibold"
+                href="/"
               >
                 <span className="flex items-center space-x-0.5">
                   <span>S&apos;abonner</span>
@@ -61,13 +61,13 @@ export default function Hero() {
                     <path d="m12 5 7 7-7 7" />
                   </svg>
                 </span>
-              </a>
-              <a
-                className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 decoration-primary underline-offset-4 hover:underline py-2 h-12 rounded-xl px-4 text-base font-semibold transition-all hover:shadow-2xl dark:shadow-primary/30"
-                href="/contact"
+              </Link>
+              <Link
+                className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring decoration-primary underline-offset-4 hover:underline py-2 h-12 rounded-xl px-4 text-base font-semibold"
+                href="/"
               >
                 Contactez-moi
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Container from '@/components/container'
 import { FadeIn } from '@/components/fadein'
 
-export default function FAQ() {
+export default function Faq() {
   return (
     <Container className="flex items-center bg-[#F4F3FA]">
       <FadeIn>

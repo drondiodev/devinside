@@ -5,7 +5,7 @@ import { FadeIn } from '@/components/fadein'
 
 export default function Pricing() {
   return (
-    <Container className="flex items-center mt-24 w-full sm:mt-32 lg:mt-40">
+    <Container className="flex items-center mt-10 w-full sm:mt-16 lg:mt-20">
       <FadeIn className="max-w-4xl">
         <div className="container mx-auto">
           <div className="flex flex-col items-center justify-center space-y-16 py-16">
@@ -63,9 +63,9 @@ export default function Pricing() {
                               viewBox="0 0 24 24"
                               fill="none"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                               className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
                             >
                               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
@@ -83,9 +83,9 @@ export default function Pricing() {
                               viewBox="0 0 24 24"
                               fill="none"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                               className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
                             >
                               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
@@ -143,9 +143,9 @@ export default function Pricing() {
                               viewBox="0 0 24 24"
                               fill="none"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                               className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
                             >
                               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
@@ -163,9 +163,9 @@ export default function Pricing() {
                               viewBox="0 0 24 24"
                               fill="none"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                               className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
                             >
                               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />

@@ -15,11 +15,11 @@ export default function Footer() {
                 <div className="flex items-center gap-2">
                   <Image
                     alt="logo"
-                    loading="lazy"
                     width="40"
-                    height="30"
+                    height="40"
                     decoding="async"
-                    src="/Logo.svg"
+                    src="/logo.svg"
+                    priority
                   />
                   <span className="text-lg font-semibold">DevInside.</span>
                 </div>

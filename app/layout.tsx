@@ -17,8 +17,7 @@ export const metadata: Metadata = {
     },
   ],
   creator: 'drondiodev',
-  icons: { icon: '/favicon.ico?v=1' },
-  // manifest: `${`${APP_URL}`}/site.webmanifest`,
+  icons: '/favicon.ico',
 }
 
 export default function RootLayout({

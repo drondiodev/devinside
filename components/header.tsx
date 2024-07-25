@@ -18,11 +18,11 @@ export default function Header() {
                   <div className="flex items-center gap-2">
                     <Image
                       alt="logo"
-                      loading="lazy"
                       width="40"
-                      height="30"
+                      height="40"
                       decoding="async"
-                      src="/Logo.svg"
+                      src="/logo.svg"
+                      priority
                     />
                     <span className="text-lg font-semibold">DevInside.</span>
                   </div>
@@ -91,7 +91,6 @@ export default function Header() {
                 </svg>
               </button>
             </div>
-            <div className="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none" />
           </nav>
         </div>
       </div>

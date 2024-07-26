@@ -1,3 +1,4 @@
+import { ChevronDown } from 'lucide-react'
 import Link from 'next/link'
 
 import Container from '@/components/container'
@@ -26,25 +27,11 @@ export default function Faq() {
                     Qu&apos;est-ce que DevInside ?
                   </h2>
                   <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-chevron-down h-5 transition duration-300 group-open:-rotate-180"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
+                    <ChevronDown className="h-5 transition duration-300 group-open:-rotate-180" />
                   </div>
                 </summary>
                 <div className="flex flex-col space-y-2 py-1 text-muted-foreground">
-                  Yes, we offer a 14-day free trial. You can cancel at any time
-                  during the trial period and you won&apos;t be charged.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
               </details>
               <details className="group border-b px-2 py-4 last:border-b-transparent">
@@ -53,25 +40,11 @@ export default function Faq() {
                     DevInside est-il gratuit ?
                   </h2>
                   <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-chevron-down h-5 transition duration-300 group-open:-rotate-180"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
+                    <ChevronDown className="h-5 transition duration-300 group-open:-rotate-180" />
                   </div>
                 </summary>
                 <div className="flex flex-col space-y-2 py-1 text-muted-foreground">
-                  You can cancel your subscription at any time. You can do this
-                  from your account settings.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
               </details>
               <details className="group border-b px-2 py-4 last:border-b-transparent">
@@ -80,104 +53,11 @@ export default function Faq() {
                     Puis-je modifier mon abonnement à tout moment ?
                   </h2>
                   <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-chevron-down h-5 transition duration-300 group-open:-rotate-180"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
+                    <ChevronDown className="h-5 transition duration-300 group-open:-rotate-180" />
                   </div>
                 </summary>
                 <div className="flex flex-col space-y-2 py-1 text-muted-foreground">
-                  You can find your invoices in your account settings.
-                </div>
-              </details>
-              <details className="group border-b px-2 py-4 last:border-b-transparent">
-                <summary className="flex items-center justify-between hover:cursor-pointer hover:underline">
-                  <h2 className="hover:underline-none cursor-pointer font-sans font-medium">
-                    What payment methods do you accept?
-                  </h2>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-chevron-down h-5 transition duration-300 group-open:-rotate-180"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
-                  </div>
-                </summary>
-                <div className="flex flex-col space-y-2 py-1 text-muted-foreground">
-                  We accept all major credit cards and PayPal.
-                </div>
-              </details>
-              <details className="group border-b px-2 py-4 last:border-b-transparent">
-                <summary className="flex items-center justify-between hover:cursor-pointer hover:underline">
-                  <h2 className="hover:underline-none cursor-pointer font-sans font-medium">
-                    Can I upgrade or downgrade my plan?
-                  </h2>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-chevron-down h-5 transition duration-300 group-open:-rotate-180"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
-                  </div>
-                </summary>
-                <div className="flex flex-col space-y-2 py-1 text-muted-foreground">
-                  Yes, you can upgrade or downgrade your plan at any time. You
-                  can do this from your account settings.
-                </div>
-              </details>
-              <details className="group border-b px-2 py-4 last:border-b-transparent">
-                <summary className="flex items-center justify-between hover:cursor-pointer hover:underline">
-                  <h2 className="hover:underline-none cursor-pointer font-sans font-medium">
-                    Do you offer discounts for non-profits?
-                  </h2>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-chevron-down h-5 transition duration-300 group-open:-rotate-180"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
-                  </div>
-                </summary>
-                <div className="flex flex-col space-y-2 py-1 text-muted-foreground">
-                  Yes, we offer a 50% discount for non-profits. Please contact
-                  us to learn more.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
               </details>
             </div>
@@ -187,21 +67,7 @@ export default function Faq() {
                 href="/contact"
               >
                 <span>D&apos;autres questions, contactez-moi !</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-arrow-right ml-2 w-4"
-                >
-                  <path d="M5 12h14" />
-                  <path d="m12 5 7 7-7 7" />
-                </svg>
+                <ChevronDown className="h-5 transition duration-300 group-open:-rotate-180" />
               </Link>
             </div>
           </div>

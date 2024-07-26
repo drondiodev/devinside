@@ -16,8 +16,8 @@ export default function Features() {
                   <Lightbulb />
                   <span>Pourquoi DevInside. est ta meilleure option ?</span>
                 </div>
-                <p className="bg-gradient-to-r from-foreground/50 to-foreground bg-clip-text text-transparent">
-                  Investissez dans votre version pro : codez votre succès !
+                <p className="bg-gradient-to-r from-foreground/50 to-foreground bg-clip-text text-transparent mt-8">
+                  Investissez dans votre version pro : code ton succès
                 </p>
               </div>
             </div>

@@ -23,7 +23,7 @@ export default function Features() {
             </div>
           </div>
           <div className="grid w-full grid-cols-1 gap-6 space-y-0 lg:grid-cols-3">
-            <div className="rounded-3xl p-2 ring-2 ring-gray-100 dark:ring-primary/10 relative col-span-2 overflow-hidden bg-violet-500 text-white lg:h-96">
+            <div className="rounded-3xl p-2 ring-2 ring-gray-100 dark:ring-primary/10 relative col-span-2 overflow-hidden bg-blue-600 text-white lg:h-96">
               <div className="flex flex-col space-y-1.5 p-6">
                 <h3 className="tracking-tight text-xl font-semibold">
                   Restez synchro avec l&apos;actu dev

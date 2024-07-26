@@ -1,3 +1,4 @@
+import { ArrowBigRight } from 'lucide-react'
 import Link from 'next/link'
 
 import Container from '@/components/container'
@@ -38,37 +39,12 @@ export default function Hero() {
             </div>
           </div>
           <div>
-            <div className="flex space-x-4">
-              <Link
-                className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground py-2 h-12 rounded-xl px-4 text-base font-semibold"
-                href="/"
-              >
-                <span className="flex items-center space-x-0.5">
-                  <span>S&apos;abonner</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-arrow-right h-4 animate-in fade-in slide-in-from-left-8 delay-1000 duration-1000 zoom-in fill-mode-both"
-                  >
-                    <path d="M5 12h14" />
-                    <path d="m12 5 7 7-7 7" />
-                  </svg>
-                </span>
-              </Link>
-              <Link
-                className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring decoration-primary underline-offset-4 hover:underline py-2 h-12 rounded-xl px-4 text-base font-semibold"
-                href="/"
-              >
-                Contactez-moi
-              </Link>
-            </div>
+            <Link href="/" className="flex space-x-4">
+              <button className="py-2 inline-flex items-center justify-center focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-primary-foreground shadow hover:bg-blue-600/80 h-14 rounded-md px-8 group my-6 whitespace-pre-wrap relative gap-2 overflow-hidden text-xl font-semibold tracking-tighter z-[999] cursor-pointer transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-blue-700 hover:ring-offset-2">
+                <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform-gpu bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-96" />
+                <span className="flex">S&apos;abonner</span>
+              </button>
+            </Link>
           </div>
         </div>
       </FadeIn>

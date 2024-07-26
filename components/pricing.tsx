@@ -30,7 +30,7 @@ export default function Pricing() {
                       <div className="flex flex-col space-y-2.5">
                         <div className="flex items-center space-x-6">
                           <b className="text-current-foreground font-heading font-semibold uppercase tracking-tight">
-                            Mensuel
+                            Starter
                           </b>
                         </div>
                         <span className="text-muted-foreground h-6 text-sm">
@@ -83,7 +83,7 @@ export default function Pricing() {
                       <div className="flex flex-col space-y-2.5">
                         <div className="flex items-center space-x-6">
                           <b className="text-current-foreground font-heading font-semibold uppercase tracking-tight">
-                            Annuel
+                            Premium
                           </b>
                         </div>
                         <span className="text-muted-foreground h-6 text-sm">

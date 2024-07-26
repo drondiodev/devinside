@@ -15,7 +15,7 @@ export default function ContactSection() {
             </h2>
             <div className="mt-10 border-t border-white/10 pt-10">
               <h3 className="text-xl lg:text-2xl font-sans font-normal tracking-tight text-muted-foreground">
-                Où nous contacter ?
+                Work in Progess !
               </h3>
             </div>
           </div>

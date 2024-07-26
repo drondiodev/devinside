@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Container
       as="header"
-      className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 w-full"
+      className="sticky top-0 z-50 border-b  border-slate-200 bg-white/90 w-full"
     >
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="flex h-16 w-full items-center justify-between">
@@ -65,7 +65,7 @@ export default function Header() {
                   Se connecter
                 </Link>
                 <Link
-                  className="inline-flex w-fit cursor-pointer items-center justify-center rounded-md px-3 py-2 sm:text-sm font-medium disabled:pointer-events-none disabled:opacity-60 transition-all ease-in-out focus-visible:outline-2 focus-visible:outline-blue-500 focus-visible:outline-offset-2 relative group bg-gradient-to-b from-blue-500 to-blue-600 hover:opacity-90 text-white active:scale-[99%] duration-200 shadow-sm"
+                  className="inline-flex w-fit cursor-pointer items-center justify-center rounded-md px-3 py-2 sm:text-sm font-medium  transition-all ease-in-out focus-visible:outline-2 focus-visible:outline-blue-500 focus-visible:outline-offset-2 relative bg-gradient-to-b from-blue-400 to-blue-700 hover:opacity-90 text-white duration-200 shadow-sm"
                   href="/"
                 >
                   Mon accès

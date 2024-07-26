@@ -1,13 +1,15 @@
+import Link from 'next/link'
+
 import Container from '@/components/container'
 import { FadeIn } from '@/components/fadein'
 
 export default function Faq() {
   return (
-    <Container className="flex items-center bg-[#F4F3FA]">
+    <Container className="flex items-center mt-10 bg-[#F4F3FA]">
       <FadeIn>
-        <div className="flex flex-col space-y-4 xl:space-y-8">
+        <div className="flex w-full max-w-5xl space-y-4 xl:space-y-8">
           <div className="border-b py-8 xl:py-10 2xl:py-12">
-            <div className="container flex flex-col space-y-2 lg:space-y-4">
+            <div className="flex flex-col space-y-2 lg:space-y-4">
               <h1 className="font-heading text-3xl font-medium tracking-tighter dark:text-white xl:text-5xl">
                 FAQ
               </h1>
@@ -21,7 +23,7 @@ export default function Faq() {
               <details className="group border-b px-2 py-4 last:border-b-transparent">
                 <summary className="flex items-center justify-between hover:cursor-pointer hover:underline">
                   <h2 className="hover:underline-none cursor-pointer font-sans font-medium">
-                    Do you offer a free trial?
+                    Qu&apos;est-ce que DevInside ?
                   </h2>
                   <div>
                     <svg
@@ -48,7 +50,7 @@ export default function Faq() {
               <details className="group border-b px-2 py-4 last:border-b-transparent">
                 <summary className="flex items-center justify-between hover:cursor-pointer hover:underline">
                   <h2 className="hover:underline-none cursor-pointer font-sans font-medium">
-                    Can I cancel my subscription?
+                    DevInside est-il gratuit ?
                   </h2>
                   <div>
                     <svg
@@ -75,7 +77,7 @@ export default function Faq() {
               <details className="group border-b px-2 py-4 last:border-b-transparent">
                 <summary className="flex items-center justify-between hover:cursor-pointer hover:underline">
                   <h2 className="hover:underline-none cursor-pointer font-sans font-medium">
-                    Where can I find my invoices?
+                    Puis-je modifier mon abonnement à tout moment ?
                   </h2>
                   <div>
                     <svg
@@ -180,8 +182,8 @@ export default function Faq() {
               </details>
             </div>
             <div>
-              <a
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2"
+              <Link
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium border  bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-5"
                 href="/contact"
               >
                 <span>D&apos;autres questions, contactez-moi !</span>
@@ -200,7 +202,7 @@ export default function Faq() {
                   <path d="M5 12h14" />
                   <path d="m12 5 7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

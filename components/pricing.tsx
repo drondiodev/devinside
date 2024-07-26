@@ -1,3 +1,4 @@
+import { CircleCheckBig } from 'lucide-react'
 import Link from 'next/link'
 
 import Container from '@/components/container'
@@ -11,11 +12,11 @@ export default function Pricing() {
           <div className="flex flex-col items-center justify-center space-y-16 py-16">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="flex flex-col">
-                <h2 className="scroll-m-20 pb-2 font-heading text-2xl font-semibold first:mt-0 lg:text-3xl tracking-tighter">
+                <h2 className="scroll-m-20 pb-2 text-2xl font-semibold first:mt-0 lg:text-3xl tracking-tighter">
                   Choisissez l&apos;abonnement approprié
                 </h2>
                 <h3 className="scroll-m-20 text-xl lg:text-2xl font-sans font-normal tracking-tight text-muted-foreground">
-                  Phrase d&apos;accroche.
+                  Enrichissez Votre Boîte à Outils Mois après Mois
                 </h3>
               </div>
             </div>
@@ -33,7 +34,7 @@ export default function Pricing() {
                           </b>
                         </div>
                         <span className="text-muted-foreground h-6 text-sm">
-                          30 jours pour découvrir l&apos;exceptionnel
+                          Votre parcours dev personnalisé
                         </span>
                       </div>
                       <div className="shrink-0 bg-border h-[1px] w-full" />
@@ -56,43 +57,16 @@ export default function Pricing() {
                       <div className="flex flex-col">
                         <ul className="flex flex-col space-y-2">
                           <li className="flex items-center space-x-2.5">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
-                            >
-                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                              <path d="m9 11 3 3L22 4" />
-                            </svg>
-                            <span className="text-sm text-secondary-foreground">
-                              Avantage 1
+                            <CircleCheckBig className="h-4 w-4" />
+                            <span className="text-xs text-secondary-foreground">
+                              Accès à des ressources sélectionnées chaque mois
                             </span>
                           </li>
                           <li className="flex items-center space-x-2.5">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
-                            >
-                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                              <path d="m9 11 3 3L22 4" />
-                            </svg>
-                            <span className="text-sm text-secondary-foreground">
-                              Avantage 2
+                            <CircleCheckBig className="h-4 w-4" />
+                            <span className="text-xs text-secondary-foreground">
+                              Flexibilité d&apos;annulation : testez sans
+                              engagement à long terme
                             </span>
                           </li>
                         </ul>
@@ -136,43 +110,17 @@ export default function Pricing() {
                       <div className="flex flex-col">
                         <ul className="flex flex-col space-y-2">
                           <li className="flex items-center space-x-2.5">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
-                            >
-                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                              <path d="m9 11 3 3L22 4" />
-                            </svg>
-                            <span className="text-sm text-secondary-foreground">
-                              Avantage 1
+                            <CircleCheckBig className="h-4 w-4" />
+                            <span className="text-xs text-secondary-foreground">
+                              Économisez 35% par rapport à l&apos;abonnement
+                              mensuel
                             </span>
                           </li>
                           <li className="flex items-center space-x-2.5">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-circle-check-big text-primary h-4 min-h-4 w-4 min-w-4"
-                            >
-                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                              <path d="m9 11 3 3L22 4" />
-                            </svg>
-                            <span className="text-sm text-secondary-foreground">
-                              Avantage 2
+                            <CircleCheckBig className="h-4 w-4" />
+                            <span className="text-xs text-secondary-foreground">
+                              Accès prioritaire aux nouvelles ressources et
+                              contenus exclusifs
                             </span>
                           </li>
                         </ul>

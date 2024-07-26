@@ -9,12 +9,12 @@ export default function Hero() {
       <FadeIn>
         <div className="flex w-full flex-1 flex-col items-center space-y-6 xl:space-y-8 2xl:space-y-10">
           <div>
-            <h3 className="space-x-2.5 rounded-full border border-gray-100 px-2 py-2.5 text-center text-sm font-medium text-transparent dark:border-primary/10">
+            <h3 className="space-x-2.5 rounded-full border border-gray-200 px-2 py-2.5 text-center text-sm font-medium text-transparent dark:border-primary/10">
               <span className="rounded-2xl bg-primary px-2.5 py-1.5 text-sm font-semibold text-primary-foreground">
                 Nouveau
               </span>
               <span className="bg-gradient-to-r from-foreground/50 to-foreground bg-clip-text text-transparent">
-                <span>Votre package.json pour début de carrière !</span>
+                <span>Ton package.json pour lancer ta carrière !</span>
               </span>
             </h3>
           </div>
@@ -32,7 +32,7 @@ export default function Hero() {
               <h3 className="scroll-m-20 tracking-tight lg:text-2xl p-0 text-center font-sans text-base font-normal">
                 <span>
                   Un pas d&apos;avance sur les autres juniors : des ressources
-                  exclusives pour booster votre carrière.
+                  exclusives pour booster ton apprentissage.
                 </span>
               </h3>
             </div>

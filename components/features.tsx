@@ -1,3 +1,4 @@
+import { Lightbulb } from 'lucide-react'
 import React from 'react'
 
 import Container from './container'
@@ -9,37 +10,16 @@ export default function Features() {
       <FadeIn>
         <div className="flex flex-col justify-between space-y-8">
           <div className="flex w-full max-w-5xl flex-col space-y-4">
-            <div className="flex">
-              <div className="flex">
-                <div className="flex items-center justify-center space-x-4 rounded-lg p-3 font-semibold">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="26"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-layout-dashboard h-5"
-                  >
-                    <rect width="7" height="10" x="3" y="3" rx="1" />
-                    <rect width="7" height="6" x="14" y="3" rx="1" />
-                    <rect width="7" height="10" x="14" y="12" rx="1" />
-                    <rect width="7" height="6" x="3" y="16" rx="1" />
-                  </svg>
+            <div className="text-3xl font-normal tracking-tighter xl:text-5xl">
+              <div className="flex flex-col items-center justify-center">
+                <div className="flex items-center space-x-4 rounded-lg p-3 font-semibold">
+                  <Lightbulb />
                   <span>Pourquoi DevInside. est ta meilleure option ?</span>
                 </div>
+                <p className="bg-gradient-to-r from-foreground/50 to-foreground bg-clip-text text-transparent">
+                  Investissez dans votre version pro : codez votre succès !
+                </p>
               </div>
-            </div>
-            <div className="text-3xl font-normal tracking-tighter xl:text-5xl">
-              <p className="font-semibold dark:text-white my-5">
-                Investissez dans votre version pro
-              </p>
-              <p className="bg-gradient-to-r from-foreground/50 to-foreground bg-clip-text text-transparent">
-                Codez votre succès !
-              </p>
             </div>
           </div>
           <div className="grid w-full grid-cols-1 gap-6 space-y-0 lg:grid-cols-3">

@@ -6,9 +6,9 @@ import Container from './container'
 export default function Footer() {
   return (
     <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
-      <div className="shrink-0 bg-border h-[1px] w-full" />
-      <footer className="relative mt-auto w-full py-8 2xl:py-16">
-        <div className="flex flex-col space-y-8 lg:flex-row lg:space-y-0">
+      <div className="mx-auto max-w-7xl px-4 lg:px-8">
+        <div className="shrink-0 bg-border h-[1px] w-full" />
+        <div className="flex flex-col my-5 lg:flex-row lg:space-y-0">
           <div className="flex w-full space-x-2 lg:w-4/12 xl:w-4/12 xl:space-x-6 2xl:space-x-8">
             <div className="flex flex-col space-y-4">
               <Link href="/">
@@ -25,20 +25,14 @@ export default function Footer() {
                 </div>
               </Link>
               <div className="flex flex-col space-y-4">
-                <div>
-                  <p className="text-sm text-muted-foreground">
-                    Les meilleurs ressources à portée de clic
-                  </p>
-                </div>
                 <div className="flex text-xs text-muted-foreground">
-                  <p>
-                    <span className="flex flex-col space-y-8">
-                      <span className="mt-6 text-sm text-slate-500 sm:mt-0">
-                        Copyright &copy; {new Date().getFullYear()}{' '}
-                        Drondiodev.studio. All rights reserved.
-                      </span>
+                  <div className="flex flex-col space-y-8">
+                    <span className="mt-6 text-sm text-slate-500 sm:mt-0">
+                      Copyright &copy; {new Date().getFullYear()}{' '}
+                      Drondiodev.studio
+                      <p>All rights reserved.</p>
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,7 +75,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </footer>
+      </div>
     </Container>
   )
 }
